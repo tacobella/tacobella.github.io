@@ -1,0 +1,416 @@
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Semi.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Semi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-BlackItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-BlackItal.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Med.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Med.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-SemiItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-SemiItal.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-UltraItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-UltraItal.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Ultra.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Ultra.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Black.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Bold.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-BoldItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-BoldItal.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-MedItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-MedItal.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-LightItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-LightItal.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Light.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Thin.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-BookItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-BookItal.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-ThinItal.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-ThinItal.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Ringside Condensed";
+  src: url("../font/ringside-condensed/RingsideCondensed-Book.woff2") format("woff2"),
+      url("font/ringside-condensed/RingsideCondensed-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "PublicoHeadline";
+  src: url("../font/publico_headline/PublicoHeadline-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "PublicoHeadline";
+  src: url("../font/publico_headline/PublicoHeadline-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "PublicoHeadline";
+  src: url("../font/publico_headline/PublicoHeadline-Black.otf") format("opentype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'PublicoHeadline';
+  src: url('../font/publico_headline/PublicoHeadline-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'PublicoHeadline';
+  src: url('../font/publico_headline/PublicoHeadline-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'PublicoHeadline';
+  src: url('../font/publico_headline/PublicoHeadline-Black.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+  /* Extra small devices (phones, 768px and down) */
+  
+  
+html {
+  background-color: rgba(242, 242, 242, 0.44);
+}
+  
+.velvet-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw; 
+}
+
+.velvet-page .logo img {
+  height: 80px;
+  width: 249px;
+}
+
+.velvet-page .logo {
+  padding-bottom: 10px;
+}
+
+.velvet-page .message {
+  color: #000000;
+  font-family: 'Ringside Condensed';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  padding-bottom: 25px;
+  width: 272px;
+  text-align: center;
+}
+
+.velvet-page .form .form-row {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.velvet-page .form .form-row input {
+  height: 41px;
+  width: 219px;
+  border: 1px solid #979797;
+  background-color: #FFFFFF;
+  padding-left: 12px;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 17px;
+}
+
+.velvet-page .form #email-address {
+  width: 462px;
+}
+
+.velvet-page .form input::placeholder {
+  color: #9B9B9B;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.velvet-page .join {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.velvet-page .join input[type='button'] {
+  height: 46px;
+  width: 171px;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Ringside Condensed';
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.velvet-page .confirmation-message {
+  display: none;
+  box-sizing: border-box;
+  height: 248px;
+  width: 323px;
+  border: 2px solid #FFFFFF;
+  background-color: #F8E039;
+  flex-direction: column;
+  padding: 31px 31px 31px 32px;
+}
+
+.velvet-page .confirmation-message .title {
+  text-align: center;
+  padding-bottom: 22px;
+  color: #000000;
+  font-family: 'Ringside Condensed';
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+.velvet-page .confirmation-message .description {
+  color: #000000;
+  font-family: 'Ringside Condensed';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+.velvet-page .welcome-menu-container .welcome-menu {  
+  text-align: center;
+  margin-bottom: 16px; 
+  margin-top: 55px;  
+}
+
+.velvet-page .welcome-menu-container .welcome-menu ul{   
+  align-items: center;  
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  }
+
+.velvet-page .welcome-menu-container .welcome-menu li{    
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.velvet-page .welcome-menu-container .welcome-menu span{    
+  color: #4A4A4A;
+  font-family: "Ringside Condensed";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.velvet-page .welcome-menu-container .welcome-menu a{ 
+    text-decoration: underline;
+    color: #4A4A4A;
+    font-family: "Ringside Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.error {
+  border: 1px solid red !important;
+}
+
+#spinner {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .velvet-page .message {
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  .velvet-page .form .form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 767px) { 
+
+  .velvet-page .welcome-menu-container .welcome-menu {  
+    text-align: center;
+    margin-bottom: 16px; 
+    margin-top: 18px;  
+    display: flex;
+    justify-content: center;
+  }
+
+  .velvet-page .logo {
+    padding-bottom: 42px;
+  }
+
+  .velvet-page .logo img {
+    height: 100px;
+    width: 311px;
+  }
+
+  .velvet-page .message {
+    padding-bottom: 30px;   
+  }
+
+  .velvet-page .form #email-address {
+    width: 219px;
+  }
+  .velvet-page .form .form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .velvet-page .confirmation-message {
+    width: 478px;
+    padding: 58px 22px 52px 27px;
+  }
+
+  .velvet-page .welcome-menu-container .welcome-menu li{    
+ 
+    margin-right: 20px;
+    margin-bottom: 12px;
+  } 
+
+  .velvet-page .welcome-menu-container .welcome-menu ul{   
+      display: inline-flex;
+      flex-direction: column;
+      padding-inline-start: 0px;;
+    }
+
+  .velvet-page .welcome-menu-container .welcome-menu span{
+    display: none;
+  }
+}
